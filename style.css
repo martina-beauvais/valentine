@@ -1,0 +1,74 @@
+*{
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.title{
+    color: rgb(245, 108, 131);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.buttons{
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.button1{
+    border-color:rgb(245, 108, 131);
+    border-radius: 10%;
+}
+
+.button1:hover{
+    background-color:rgb(245, 108, 131);
+}
+
+.button2{
+    border-color:rgb(245, 108, 131);
+    border-radius: 5%;
+}
+.button2:hover{
+    background-color:rgb(245, 108, 131);
+}
+
+.button3{
+    border-color:rgb(245, 108, 131);
+    border-radius: 5%;
+    margin: 3%;
+}
+.button3:hover{
+    background-color:rgb(245, 108, 131);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.gifs{
+    width: 25%;
+    height: 25%;
+    margin-bottom: 5%;
+}
+
+.container{
+    margin: 5%;
+    padding-bottom: 5%;
+}
+
+.food{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #ff9494;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+
+}
